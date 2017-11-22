@@ -32,3 +32,5 @@ Implementaion on Ubuntu :
 Download the repository and place it in the directory: /var/www/html/
 
 Import the arms.sql using the phpmyadmin.
+
+setup key and number in Writeapplication.php
