@@ -25,18 +25,15 @@ include('config.php');
     $_SESSION['otp']=$rndno;
     //echo $rndno;
     // Authorisation details.
-    $username1 = "kiranjose22@gmail.com";
-    $hash = "486d2f16f0835ea3b332d6eee5930a994015667fd5a13abcda81f131ec0605cc";
-    //
-    //$apiKey = urlencode('385402c22afb20d30a8c27c998420bae0bae65488796f95af4d1ed3ceba19696');
-    //
+    $username1 = ""; //your emailid registered @ textlocal
+    $hash = ""; //set your hash key from textlocal Documentation
 
     // Config variables. Consult http://api.textlocal.in/docs for more info.
     $test = "0";
 
     // Data for text message. This is the text message data.
-    $sender = "TXTLCL"; // This is who the message appears to be from.
-    $numbers = 919745676508; // A single number or a comma-seperated list of numbers
+    $sender = "TXTLCL"; // This is who the message appears to be from. DO NOT CHANGE THIS
+    $numbers = 91XXXXXXXXXX; // Set it as phone number for otp in integer.
     $message = "A. R. M. S. >OTP : ".(string)$rndno;
     // 612 chars or less
     // A single number or a comma-seperated list of numbers
